@@ -1,0 +1,93 @@
+/********** Main page styles **********/
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(255, 218, 149);
+}
+
+.container {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+/********** Landing styles **********/
+.landing {
+  height: 70vh;
+  background-image: url(../img/set-your-goals.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  image-rendering: auto;
+  background-position: center;
+}
+
+#landing-header {
+  align-self: center;
+  font-size: 6rem;
+  font-family: 'Roboto Slab', serif;
+  color: rgba(168, 29, 29, 0.788);
+  padding-left: 1rem;
+}
+
+/********** Main nav styles **********/
+.main-nav {
+  flex-direction: row;
+  margin-left: auto;
+  list-style-type: none;
+}
+
+.main-nav li {
+  margin: 1rem 1rem 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.main-nav a {
+  color: rgba(168, 29, 29, 0.774);
+  font-weight: bold;
+}
+
+/********** Secondary nav styles **********/
+.secondary-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-box {
+  padding: 1.5rem 2rem;
+  margin: .5rem 0 .5rem;
+  border-radius: 6px;
+  color: rgba(168, 29, 29, 0.774);
+  font-weight: bold;
+  transition-duration: 200ms;
+  transition-property: padding, background-color, color;
+  background-color: rgb(40, 175, 157);
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-box:hover {
+  padding: 1.75rem 2.25rem;
+  background-color: rgba(168, 29, 29, 0.774);
+  color: rgb(40, 175, 157);
+}
+/********** Main content styles **********/
+.main-header {
+  font-family: 'Roboto Slab', serif;
+  color: rgba(168, 29, 29, 0.774);
+  text-align: center;
+  font-size: 3rem;
+}
+
+.main-paragraphs {
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+  width: 75%;
+  text-align: center;
+}
+  
+/********** Gallery styles **********/
+
+/********** Footer styles **********/
+
