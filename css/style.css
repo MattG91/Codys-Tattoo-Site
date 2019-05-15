@@ -5,17 +5,13 @@ body {
   background-color: rgb(255, 218, 149);
 }
 
-.container {
-  display: flex;
-}
-
 a {
   text-decoration: none;
 }
 
 /********** Landing styles **********/
 .landing {
-  height: 70vh;
+  height: 40vh;
   background-image: url(../img/set-your-goals.jpg);
   background-repeat: no-repeat;
   background-size: 100% 70%;
@@ -25,7 +21,7 @@ a {
 
 #landing-header {
   align-self: center;
-  font-size: 6rem;
+  font-size: 3rem;
   font-family: 'Roboto Slab', serif;
   color: rgba(168, 29, 29, 0.788);
   padding-left: 1rem;
@@ -33,31 +29,33 @@ a {
 
 /********** Main nav styles **********/
 .main-nav {
-  flex-direction: row;
-  margin-left: auto;
-  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 3px solid black;
+  border-radius: 5px;
 }
 
 .main-nav li {
-  margin: 1rem 1rem 0;
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  list-style-type: none;
+  padding: .5em 0 .3em;
+  
 }
 
 .main-nav a {
-  color: rgba(168, 29, 29, 0.774);
-  font-weight: bold;
+  color: rgb(168, 29, 29);
 }
 
-/********** Secondary nav styles **********/
+ /********** Secondary nav styles **********/
 .secondary-nav {
   display: flex;
   justify-content: space-evenly;
+  margin: 0 .5rem 0;
 }
 
 .nav-box {
-  padding: 1.5rem 2rem;
-  margin: .5rem 0 .5rem;
+  padding: 1.3rem 2rem;
+  margin: -1rem 0 .5rem;
   border-radius: 6px;
   color: rgba(168, 29, 29, 0.774);
   font-weight: bold;
@@ -72,12 +70,14 @@ a {
   background-color: rgba(168, 29, 29, 0.774);
   color: rgb(40, 175, 157);
 }
+
 /********** Main content styles **********/
 .main-header {
   font-family: 'Roboto Slab', serif;
   color: rgba(168, 29, 29, 0.774);
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
+  margin: 1rem, 0, 0;
 }
 
 .main-paragraphs {
@@ -86,8 +86,3 @@ a {
   width: 75%;
   text-align: center;
 }
-  
-/********** Gallery styles **********/
-
-/********** Footer styles **********/
-

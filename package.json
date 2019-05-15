@@ -1,0 +1,19 @@
+{
+  "name": "codys-tattoo-site",
+  "version": "1.0.0",
+  "description": "Portfolio site for stocking tattoo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattG91/Codys-Tattoo-Site.git"
+  },
+  "author": "@mguest91",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattG91/Codys-Tattoo-Site/issues"
+  },
+  "homepage": "https://github.com/MattG91/Codys-Tattoo-Site#readme"
+}
