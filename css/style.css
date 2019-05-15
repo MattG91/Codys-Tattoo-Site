@@ -86,3 +86,48 @@ a {
   width: 75%;
   text-align: center;
 }
+
+
+
+
+/********** Main gallery styles **********/
+.photo-gallery {
+  margin: auto;
+  max-width: 90%;
+}
+
+.gallery-highlight {
+  display: flex;
+  margin: auto;
+  margin: .6rem auto 1rem;
+  
+}
+
+.gallery-highlight img {
+  height: 20%;
+}
+
+.gallery-highlight, .gallery-preview img {
+ width: 90%;
+ height: auto;
+}
+
+.gallery-preview {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2px;
+}
+
+
+/********** Keyframes **********/
+@keyframes
+fadeIn {  to {
+ opacity: 1;
+  }
+}
+ 
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in 1 forwards;
+}
+
